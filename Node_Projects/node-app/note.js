@@ -14,6 +14,10 @@ const addNote = (title, body) => {
     const duplicateNote = notes.find((n) => n.title === title);
     // console.log(JSON.stringify(duplicateNotes) + " duplicate Notes >> ")
 
+
+    //debugg from here
+    debugger
+
     // if (duplicateNotes.length === 0) {
         if (!duplicateNote){
         notes.push({
